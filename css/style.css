@@ -18,7 +18,7 @@ button {
 }  
 .container {
   width: 22%; 
-  float:left;
+  float: left;
   clear:right;
   margin:10px; 
   border-radius: 5px;
