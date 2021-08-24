@@ -17,10 +17,10 @@ button {
   margin:10px
 }  
 .container {
-  width: 22%; 
+  width: 23%; 
   float: left;
   clear:right;
-  margin:10px; 
+  margin:1%; 
   border-radius: 5px;
 }
 .sortable { 
