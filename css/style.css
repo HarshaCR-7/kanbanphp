@@ -6,7 +6,24 @@ body {
   background-size: cover;
   background-attachment: fixed;
 }
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: rgb(58, 57, 57);
+  opacity: 2; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: rgb(58, 50, 50);
+  opacity: 2;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+  color: rgb(59, 56, 56);
+  opacity: 2;
+}
+
 h2 {margin:5px;}
+
 input[type=text] {
   margin:1px;
   background: inherit;
@@ -30,10 +47,13 @@ button {
   min-height:30px; 
   border-radius: 5px;
 }
+h2{
+  text-align: center;
+}
 .sortable li { 
   margin: 3px 3px 3px 3px; 
-  padding: 0.4em; 
-  padding-left: 1.5em; 
+  padding: 0.45em; 
+  padding-left: 0em; 
   font-size: 1.4em; 
   height: 18px;
 }
@@ -49,8 +69,9 @@ button {
   box-shadow: 0 0 5px 0;
   background: inherit;
   backdrop-filter: blur(20px);
-  margin: 100px;
+  margin: 0;
   text-align: center;
+  transition: 0.1s;
 }
 .add-button{
   padding: 0.75rem 1rem;
@@ -60,6 +81,7 @@ button {
   transition: .5s;
   margin: 0.2rem 0.25rem 0.25rem 0.25rem;
   border-radius: 25px;
+  transition: 0.7s;
 }
 
 
