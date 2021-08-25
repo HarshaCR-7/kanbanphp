@@ -65,7 +65,7 @@ h2{
   background-color:white;
   border-radius:3px;
   cursor: pointer;
-  top: 10px;
+  top: 0px;
   box-shadow: 0 0 5px 0;
   background: inherit;
   backdrop-filter: blur(20px);
